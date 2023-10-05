@@ -1,5 +1,5 @@
 <?php
-require_once ("herpers/url.php");
+require_once ("helpers/url.php");
 ?>
 
 <link rel= "stylesheet" href="<?=$BASE_URL?>/css/style.css">
@@ -20,6 +20,6 @@ require_once ("herpers/url.php");
             <li><a href="#" class="nav-link">Categorias</a></li>
             <li><a href="#" class="nav-link">Sobre</a></li>
             <li><a href="<?=$BASE_URL?>/contato.php" class="nav-link">Contato</a></li>
-        </ul>
+        </ul> 
     </header>
 </body>
